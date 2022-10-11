@@ -1,0 +1,52 @@
+/* My Awesome CSS */
+.body{
+    background-color: rgb(24, 233, 233);
+    font-family: arial;
+    font-size: 18px;
+}
+
+header,footer {
+    background-color: red;
+}
+
+.site-title {
+    color: white;
+}
+
+#my-image{
+    box-shadow: 0 0 2px 1px black;
+}
+
+ul {
+    list-style-type: square;
+  }
+
+  article li:nth-child(odd) {
+    background: green;
+  }
+
+  nav ul {
+    list-style-type: none;
+  }
+  
+  header nav a:link {
+    text-decoration: none;
+  }
+
+
+  a:hover {
+    background-color: lightgreen;
+  }
+
+  a:link {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+
+  
